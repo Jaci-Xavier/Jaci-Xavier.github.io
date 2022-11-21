@@ -22,14 +22,14 @@ h2{
     font-size: 40px;
     font-family: "NanumGothic";
 }
-.linkedin{
-    color: black;
-}
-.github{
-    color: black;
-}
-.watsapp{
-    color:black;
+
+.button{
+    color: white;
+    background-color: black;
+    padding: 15px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+
 }
 
 li{
@@ -40,3 +40,8 @@ li{
 .Localização{
     color: rgb(54,54,54);
 }
+
+#foto{
+    border-radius: 150px;
+}
+
