@@ -3,17 +3,26 @@
   font-family: "NanumGothic";
   src: url(/font/Nanum_Gothic/NanumGothic-Regular.otf);
 }
+div{
+    margin-top: 20px;
+    text-align: center;
+    float: center;
+}
+
 body{ 
     background-color: rgb(0, 0, 0);
     font-size: 20px;
     color: silver;
 }
+
+
 .meuNome{
     font-size: 70px;
     font-weight: 300px;
     line-height: 85px;
     font-family: "NanumGothic";
     color: goldenrod; 
+    margin-left: 5%;
 }
 
 .descricao{
@@ -26,14 +35,22 @@ h2{
     color: goldenrod;
 }
 
-.button{
+.button {
+    color: black;
+    background-color: goldenrod;
+    padding: 3px 6px;
+    border-radius: 12px;
+    text-decoration: none;
+
+}
+
+.button2 {
     color: black;
     background-color: goldenrod;
     padding: 3px 6px;
     border-radius: 12px;
     text-decoration: none;
 }
-
 li{
     color: silver;
     font-size: 20px;
