@@ -4,7 +4,8 @@
   src: url(/font/Nanum_Gothic/NanumGothic-Regular.otf);
 }
 body{ 
-    background-color: rgb(112, 128, 144)
+    background-color: rgb(112, 128, 144);
+    font-size: 20px;
 
 }
 .meuNome{
@@ -12,6 +13,7 @@ body{
     font-weight: 300px;
     line-height: 85px;
     font-family: "NanumGothic";
+    
 }
 
 .descricao{
@@ -26,8 +28,8 @@ h2{
 .button{
     color: white;
     background-color: black;
-    padding: 15px 15px;
-    border-radius: 15px;
+    padding: 10px 10px;
+    border-radius: 12px;
     text-decoration: none;
 
 }
