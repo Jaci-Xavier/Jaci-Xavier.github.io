@@ -41,6 +41,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-
-//Olá, meu nome é Xavier e sou um programador apaixonado por criar soluções inovadoras e criativas para problemas complexos.
