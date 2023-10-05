@@ -31,8 +31,14 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import recipesApp from './recipes-app.png';
+import tfc from './tfc.png';
+import cambio from './casa-de-cambio.png';
+import blackJack from './blackJack.png';
 
 export {
+  blackJack,
+  cambio,
+  tfc,
   recipesApp,
   logo,
   backend,

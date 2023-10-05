@@ -18,9 +18,9 @@ import {
   tesla,
   shopify,
   recipesApp,
-  jobit,
-  tripguide,
+  tfc,
   threejs,
+  blackJack,
 } from "../assets";
 
 // import java from "../assets/tech/java.png";
@@ -56,7 +56,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Content Creator",
+    title: "Analista de Qualidade",
     icon: creator,
   },
 ];
@@ -229,6 +229,64 @@ const projects = [
     image: recipesApp,
     source_code_link: "https://github.com/Jaci-Xavier/recipe-app",
     deployed_url: 'https://recipe-app-one-sand.vercel.app/'
+  },
+  {
+    name: "Trybe Futebol Clube",
+    description:
+      "Uma aplicação web no qual foi desenvolvido o banco de dados de um campeonato de futebol, onde o usuario consegue vizualizar uma classificação geral, a classificação por jogos em casa ou como visitante, alem de poder adicionar, editar e finalizar partidas entre os times. O calculo de pontos assim como a classificação são feitos automaticamente após a atualização da partida no banco de dados. Esta aplicação foi desenvolvida por mim durante o curso de desenvolvimento web fullstack da Trybe.",
+    tags: [
+      {
+        name: "mysql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "orange-text-gradient",
+      },
+    ],
+    category: 'Backend',
+    image: tfc,
+    source_code_link: "https://github.com/Jaci-Xavier/Projeto-Trybe-Futebol-Clube",
+    deployed_url: 'https://github.com/Jaci-Xavier/Projeto-Trybe-Futebol-Clube'
+  },
+  {
+    name: "Black Jack",
+    description:
+      "Este é um projeto de Blackjack desenvolvido com React. É um jogo de cartas onde o objetivo deste projeto é simular um jogo de Blackjack, onde o jogador compete contra o dealer para chegar o mais próximo possível de 21 pontos sem ultrapassá-lo. Para jogar basta logar com um email valido e uma senha com no mínimo 7 caracteres. Esta aplicação foi desenvolvida por mim consumindo a api de baralho do site https://deckofcardsapi.com/",
+    tags: [
+      {
+        name: "react",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "hooks",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-router-dom",
+        color: "blue-text-gradient",
+      },
+    ],
+    category: 'Frontend',
+    image: blackJack,
+    source_code_link: "https://github.com/Jaci-Xavier/black-jack",
+    deployed_url: 'https://black-jack-plum-rho.vercel.app'
   },
 ];
 
