@@ -30,7 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import recipesApp from './recipes-app.png';
+
 export {
+  recipesApp,
   logo,
   backend,
   creator,

@@ -7,14 +7,14 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({index, name, description, tags, image, source_code_link, deployed_url, category }) => {
   return (
     <motion.div variants ={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 25, scale: 1, speed: 450 }}
         className='bg-tertiary rounded-2xl sm:w-[300px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] cursor-pointer' onClick={() => window.open(deployed_url, '_blank')}>
           <img src={image} alt={name} className='w-full h-full object-cover rounded 2xl' />
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
@@ -26,7 +26,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link })
           </div>
         </div>
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <h3 className='text-white font-bold text-[24px]'>{name} - <span>{category}</span></h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
         <div className='mt-4 flex flex-wrap gap-2'>
@@ -45,7 +45,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link })
 const Works = () => {
   return (
     <>
-          <motion.div>
+      <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>Repositórios</p>
         <h2 className={styles.sectionHeadText}>Projetos Desenvolvidos</h2>
       </motion.div>
