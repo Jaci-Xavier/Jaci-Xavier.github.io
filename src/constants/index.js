@@ -11,9 +11,7 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   starbucks,
@@ -24,6 +22,10 @@ import {
   tripguide,
   threejs,
 } from "../assets";
+
+// import java from "../assets/tech/java.png";
+import python from "../assets/tech/python.png";
+import mysql from "../assets/tech/mysql.png";
 
 export const navLinks = [
   {
@@ -93,10 +95,6 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
@@ -105,12 +103,20 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  // {
+  //   name: "java",
+  //   icon: java,
+  // },
+  {
+    name: "mysql",
+    icon: mysql,
   },
 ];
 
